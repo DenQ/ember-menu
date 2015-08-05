@@ -1,8 +1,8 @@
 {
   "name": "ember-menu",
-  "version": "0.0.0",
-  "description": "Small description for ember-menu goes here",
-  "private": true,
+  "version": "0.0.1",
+  "description": "Ember menu is menu on bootstap GUI",
+  "private": false,
   "directories": {
     "doc": "doc",
     "test": "tests"
