@@ -1,6 +1,6 @@
 {
   "name": "ember-menu",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Ember menu is menu on bootstap GUI",
   "private": false,
   "directories": {
@@ -12,7 +12,13 @@
     "build": "ember build",
     "test": "ember test"
   },
-  "repository": "",
+  "keywords": [
+    "ember-addon",
+    "q-menu",
+    "menu",
+    "menu bootstrap"
+  ],
+  "repository": "https://github.com/DenQ/ember-menu.git",
   "engines": {
     "node": ">= 0.10.0"
   },
