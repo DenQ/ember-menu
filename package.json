@@ -1,6 +1,6 @@
 {
   "name": "ember-menu",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Ember menu is menu on bootstap GUI",
   "private": false,
   "directories": {
@@ -29,6 +29,7 @@
     "ember-cli": "1.13.6",
     "ember-cli-app-version": "0.4.0",
     "ember-cli-babel": "^5.0.0",
+    "ember-cli-coffeescript": "1.13.0",
     "ember-cli-content-security-policy": "0.4.0",
     "ember-cli-dependency-checker": "^1.0.0",
     "ember-cli-htmlbars": "0.7.9",
