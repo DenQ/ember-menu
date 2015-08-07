@@ -2,6 +2,9 @@
 
 Ember-menu is menu component on bootstrap. 
 
+## Attention
+Project in progress. Don`t use a his, while version < 0.1.0 
+
 ## Installation
 
 ```
