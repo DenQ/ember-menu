@@ -1,6 +1,7 @@
 `import Ember from 'ember'`
 
-QTmpComponent = Ember.Component.extend
+QMenuComponent = Ember.Component.extend
   a: 1
 
-`export default QTmpComponent`
+
+`export default QMenuComponent`
