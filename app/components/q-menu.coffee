@@ -5,6 +5,14 @@ QMenuComponent = Ember.Component.extend
   'model-name': ''
   data: []
 
+  # переделать
+  SetActiveClass:->
+    $element = $ @get('element')
+    $listLinks = $element.find 'a.active'
+    $listLinks.parents('li').addClass 'active'
+    return
+
+
   didInsertElement:(etc...)->
     @_super etc
     loading = @LoadModel()
@@ -12,6 +20,11 @@ QMenuComponent = Ember.Component.extend
     loading.then (result) ->
       content = result.content
       that.SetData content
+      # переделать
+      setTimeout (->
+        that.SetActiveClass()
+      ), 200
+
     return
 
   LoadModel:->
@@ -27,7 +40,7 @@ QMenuComponent = Ember.Component.extend
       mas.push obj
     @set 'data', mas
     return
-    
+
 #    console.log loading
 #    m = storage.createRecord modelName,
 #      'name': 'about'
