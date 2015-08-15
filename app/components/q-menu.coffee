@@ -5,26 +5,16 @@ QMenuComponent = Ember.Component.extend
   'model-name': ''
   data: []
 
-  # переделать
-  SetActiveClass:->
-    $element = $ @get('element')
-    $listLinks = $element.find 'a.active'
-    $listLinks.parents('li').addClass 'active'
-    return
-
-
   didInsertElement:(etc...)->
     @_super etc
-    loading = @LoadModel()
-    that = @
-    loading.then (result) ->
-      content = result.content
-      that.SetData content
-      # переделать
-      setTimeout (->
-        that.SetActiveClass()
-      ), 200
+    @InitData()
+    return
 
+  InitData:->
+    that = @
+    loading = @LoadModel()
+    loading.then (model)->
+      that.WalkModel model
     return
 
   LoadModel:->
@@ -33,20 +23,25 @@ QMenuComponent = Ember.Component.extend
     loading = storage.findAll modelName
     return loading
 
-  SetData:(content)->
+  WalkModel:(model)->
+    items = model.toArray()
     mas = []
-    for item in content
-      obj = item._data
-      mas.push obj
+    for item in items
+      activeClass = ''
+      activeClass = 'active' if item.get('route') is @GetCurrentPath()
+      Ember.set item, 'activeClass', activeClass
+      mas.push item
     @set 'data', mas
+    @GetCurrentPath()
     return
 
-#    console.log loading
-#    m = storage.createRecord modelName,
-#      'name': 'about'
-#      'route': 'about'
-#    m.save()
-#    return
 
+  GetCurrentPath:->
+    app = @container.lookup('controller:application')
+    return app.get 'currentPath'
+
+  actions:
+    selectItem:(item)->
+      @InitData()
 
 `export default QMenuComponent`

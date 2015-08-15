@@ -3,10 +3,10 @@
 
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav">
-                {{#each data}}
-                    <li>
-                        {{#link-to this.route}}
-                            {{this.name}}
+                {{#each data as |item|}}
+                    <li {{action "selectItem" item}} class="{{item.activeClass}}">
+                        {{#link-to item.route}}
+                            {{item.name}}
                         {{/link-to}}
                     </li>
                 {{/each}}
