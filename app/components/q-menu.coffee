@@ -36,7 +36,6 @@ QMenuComponent = Ember.Component.extend
       Ember.set item, 'activeClass', activeClass
       mas.push item
     @set 'data', mas
-    @GetCurrentPath()
     return
 
 
@@ -46,6 +45,9 @@ QMenuComponent = Ember.Component.extend
 
   actions:
     selectItem:(item)->
+      @InitData()
+      return
+    selectBrand:->
       @InitData()
       return
 

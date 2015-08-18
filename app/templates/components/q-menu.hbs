@@ -2,7 +2,7 @@
     <div class="container-fluid">
 
         {{#if brand-name}}
-            <div class="navbar-header">
+            <div class="navbar-header" {{action "selectBrand"}}>
                 {{#link-to brand-route class="navbar-brand"}}
                     {{brand-name}}
                 {{/link-to}}
