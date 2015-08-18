@@ -7,7 +7,9 @@ QMenuComponent = Ember.Component.extend
 
   didInsertElement:(etc...)->
     @_super etc
-    @InitData()
+    that = @
+    Ember.run.schedule 'afterRender', ->
+      that.InitData()
     return
 
   InitData:->
@@ -43,5 +45,6 @@ QMenuComponent = Ember.Component.extend
   actions:
     selectItem:(item)->
       @InitData()
+      return
 
 `export default QMenuComponent`
