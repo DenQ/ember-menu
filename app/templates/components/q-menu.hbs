@@ -1,6 +1,14 @@
 <nav class="navbar navbar-default">
     <div class="container-fluid">
 
+        {{#if brand-name}}
+            <div class="navbar-header">
+                {{#link-to brand-route class="navbar-brand"}}
+                    {{brand-name}}
+                {{/link-to}}
+            </div>
+        {{/if}}
+
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav">
                 {{#each data as |item|}}

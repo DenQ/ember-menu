@@ -4,6 +4,8 @@ QMenuComponent = Ember.Component.extend
   storage: Ember.inject.service('store')
   'model-name': ''
   data: []
+  'brand-name': null
+  'brand-route': null
 
   didInsertElement:(etc...)->
     @_super etc

@@ -13,7 +13,7 @@ ember install ember-menu
 
 ## Using
 ```
-{{q-menu model=model}}
+{{q-menu model-name="q-menu" brand-name="QMenu" brand-route="index"}}
 ```
 
 ### Status project
