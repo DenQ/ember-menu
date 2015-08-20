@@ -35,6 +35,8 @@ Init=(container, application)->
         Promise.all(promises).then (t) ->
           resolve true
           Ember.debug 'Save menu'
+      else
+        resolve true
 
 
 
@@ -58,7 +60,10 @@ QMenuInitializer =
   after: 'store'
   initialize: (container, application)->
     application.deferReadiness()
-    Init container, application
-    application.advanceReadiness()
+    load = Init container, application
+    load.then (m) ->
+      application.advanceReadiness()
+    return
+
 
 `export default QMenuInitializer`
