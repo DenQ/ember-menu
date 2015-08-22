@@ -1,0 +1,408 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="ef6eeaad-f139-425d-b78e-55963efb39fa" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/failed.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/passed.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ember-menu/crossdomain.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/ember-data.js.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/ember-menu.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/ember-menu.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/robots.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/test-loader.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/test-support.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/test-support.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/test-support.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/testem.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/vendor.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/vendor.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/vendor.map" />
+      <change type="DELETED" beforePath="D:\Projects\ember\ember-q-menu\.bowerrc" afterPath="" />
+      <change type="DELETED" beforePath="D:\Projects\ember\ember-q-menu\.editorconfig" afterPath="" />
+      <change type="DELETED" beforePath="D:\Projects\ember\ember-q-menu\.ember-cli" afterPath="" />
+      <change type="DELETED" beforePath="D:\Projects\ember\ember-q-menu\.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="D:\Projects\ember\ember-q-menu\.jshintrc" afterPath="" />
+      <change type="DELETED" beforePath="D:\Projects\ember\ember-q-menu\.travis.yml" afterPath="" />
+      <change type="DELETED" beforePath="D:\Projects\ember\ember-q-menu\.watchmanconfig" afterPath="" />
+      <change type="DELETED" beforePath="D:\Projects\ember\ember-q-menu\README.md" afterPath="" />
+      <change type="DELETED" beforePath="D:\Projects\ember\ember-q-menu\app\adapters\application.coffee" afterPath="" />
+      <change type="DELETED" beforePath="D:\Projects\ember\ember-q-menu\app\app.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Projects\ember\ember-q-menu\app\components\.gitkeep" afterPath="" />
+      <change type="DELETED" beforePath="D:\Projects\ember\ember-q-menu\app\components\q-menu.coffee" afterPath="" />
+      <change type="DELETED" beforePath="D:\Projects\ember\ember-q-menu\app\controllers\.gitkeep" afterPath="" />
+      <change type="DELETED" beforePath="D:\Projects\ember\ember-q-menu\app\helpers\.gitkeep" afterPath="" />
+      <change type="DELETED" beforePath="D:\Projects\ember\ember-q-menu\app\index.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\Projects\ember\ember-q-menu\app\initializers\q-menu.coffee" afterPath="" />
+      <change type="DELETED" beforePath="D:\Projects\ember\ember-q-menu\app\models\.gitkeep" afterPath="" />
+      <change type="DELETED" beforePath="D:\Projects\ember\ember-q-menu\app\models\q-menu.coffee" afterPath="" />
+      <change type="DELETED" beforePath="D:\Projects\ember\ember-q-menu\app\router.coffee" afterPath="" />
+      <change type="DELETED" beforePath="D:\Projects\ember\ember-q-menu\app\routes\.gitkeep" afterPath="" />
+      <change type="DELETED" beforePath="D:\Projects\ember\ember-q-menu\app\serializers\application.coffee" afterPath="" />
+      <change type="DELETED" beforePath="D:\Projects\ember\ember-q-menu\app\styles\app.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\Projects\ember\ember-q-menu\app\templates\application.hbs" afterPath="" />
+      <change type="DELETED" beforePath="D:\Projects\ember\ember-q-menu\app\templates\components\.gitkeep" afterPath="" />
+      <change type="DELETED" beforePath="D:\Projects\ember\ember-q-menu\app\templates\components\q-menu.hbs" afterPath="" />
+      <change type="DELETED" beforePath="D:\Projects\ember\ember-q-menu\bower.json" afterPath="" />
+      <change type="DELETED" beforePath="D:\Projects\ember\ember-q-menu\config\environment.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Projects\ember\ember-q-menu\ember-cli-build.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Projects\ember\ember-q-menu\index.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Projects\ember\ember-q-menu\package.json" afterPath="" />
+      <change type="DELETED" beforePath="D:\Projects\ember\ember-q-menu\public\crossdomain.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\Projects\ember\ember-q-menu\public\robots.txt" afterPath="" />
+      <change type="DELETED" beforePath="D:\Projects\ember\ember-q-menu\testem.json" afterPath="" />
+      <change type="DELETED" beforePath="D:\Projects\ember\ember-q-menu\tests\.jshintrc" afterPath="" />
+      <change type="DELETED" beforePath="D:\Projects\ember\ember-q-menu\tests\helpers\resolver.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Projects\ember\ember-q-menu\tests\helpers\start-app.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Projects\ember\ember-q-menu\tests\integration\components\q-menu-test.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Projects\ember\ember-q-menu\tests\integration\components\q-tmp-test.coffee" afterPath="" />
+      <change type="DELETED" beforePath="D:\Projects\ember\ember-q-menu\tests\test-helper.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Projects\ember\ember-q-menu\tests\unit\.gitkeep" afterPath="" />
+      <change type="DELETED" beforePath="D:\Projects\ember\ember-q-menu\tests\unit\initializers\q-menu-test.coffee" afterPath="" />
+      <change type="DELETED" beforePath="D:\Projects\ember\ember-q-menu\vendor\.gitkeep" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/index.html" afterPath="$PROJECT_DIR$/tests/index.html" />
+      <change type="MOVED" beforePath="D:\Projects\ember\ember-q-menu\app\components\.gitkeep" afterPath="$PROJECT_DIR$/assets/ember-menu.css" />
+      <change type="MOVED" beforePath="D:\Projects\ember\ember-q-menu\public\crossdomain.xml" afterPath="$PROJECT_DIR$/crossdomain.xml" />
+      <change type="MOVED" beforePath="D:\Projects\ember\ember-q-menu\public\robots.txt" afterPath="$PROJECT_DIR$/ember-menu/robots.txt" />
+    </list>
+    <ignored path="ember-q-menu.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <ignored path=".idea/dataSources.local.xml" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="ember-q-menu" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="vendor.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/assets/vendor.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.47524753">
+              <caret line="20" column="3" selection-start-line="20" selection-start-column="3" selection-end-line="20" selection-end-column="3" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/app/models/menu.coffee" />
+        <option value="$PROJECT_DIR$/app/router.js" />
+        <option value="$PROJECT_DIR$/app/routes/application.coffee" />
+        <option value="$PROJECT_DIR$/app/templates/index.coffee" />
+        <option value="$PROJECT_DIR$/addon/routes/index.coffee" />
+        <option value="$PROJECT_DIR$/app/adapters/application.coffee" />
+        <option value="$PROJECT_DIR$/app/routes/index.coffee" />
+        <option value="$PROJECT_DIR$/app/templates/index.hbs" />
+        <option value="$PROJECT_DIR$/app/router.coffee" />
+        <option value="$PROJECT_DIR$/app/initializers/load.coffee" />
+        <option value="$PROJECT_DIR$/public/data/fixture-q-menu.json" />
+        <option value="$PROJECT_DIR$/app/models/q-menu.coffee" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/app/templates/application.hbs" />
+        <option value="$PROJECT_DIR$/app/components/q-menu.coffee" />
+        <option value="$PROJECT_DIR$/app/templates/components/q-menu.hbs" />
+        <option value="$PROJECT_DIR$/index.js" />
+        <option value="$PROJECT_DIR$/bower.json" />
+        <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/app/initializers/q-menu.coffee" />
+        <option value="$PROJECT_DIR$/dist/index.html" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+  </component>
+  <component name="NamedScopeManager">
+    <order />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-9" />
+    <option name="y" value="-9" />
+    <option name="width" value="1938" />
+    <option name="height" value="1170" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+          <State>
+            <id>Control flow issuesJavaScript</id>
+          </State>
+          <State>
+            <id>Internationalization issues</id>
+          </State>
+          <State>
+            <id>JavaScript</id>
+          </State>
+          <State>
+            <id>Potentially confusing code constructsJavaScript</id>
+          </State>
+          <State>
+            <id>SQL</id>
+          </State>
+        </expanded-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ember-q-menu" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ember-q-menu" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ember-q-menu" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope">
+        <subPane subId="Problems" />
+        <subPane subId="Project Files">
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scratches" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="options.lastSelected" value="configurable.group.appearance" />
+    <property name="options.splitter.main.proportions" value="0.3" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../ember-discovery/testing" />
+    <property name="HbShouldOpenHtmlAsHb" value="" />
+    <property name="settings.editor.selected.configurable" value="File.Encoding" />
+    <property name="JavaScriptLanguageLevel" value="ES6" />
+    <property name="JavaScriptPreferStrict" value="false" />
+    <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
+    <property name="settings.editor.splitter.proportion" value="0.2" />
+    <property name="recentsLimit" value="5" />
+    <property name="ignore_missing_gitignore" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Projects\ember\ember-q-menu" />
+      <recent name="D:\Projects\ember\ember-q-menu\app\initializers" />
+      <recent name="D:\Projects\ember\ember-q-menu\app\templates" />
+      <recent name="D:\Projects\ember\ember-q-menu\app" />
+      <recent name="D:\Projects\ember\ember-q-menu\app\routes" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Projects\ember\ember-q-menu\app\initializers" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JavaScript Debug.index.html">
+    <configuration default="false" name="index.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/ember-q-menu/dist/index.html">
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpBehatConfigurationType" factoryName="Behat">
+      <BehatRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server">
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <pass-parent-envs>true</pass-parent-envs>
+      <envs />
+      <method />
+    </configuration>
+    <list size="1">
+      <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.index.html" />
+    </list>
+    <recent_temporary>
+      <list size="1">
+        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.index.html" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ef6eeaad-f139-425d-b78e-55963efb39fa" name="Default" comment="" />
+      <created>1439023228412</created>
+      <option name="number" value="Default" />
+      <updated>1439023228412</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-9" y="-9" width="1938" height="1170" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2078125" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298479" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/dist/assets/vendor.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="14658" column="4" selection-start-line="14658" selection-start-column="4" selection-end-line="14658" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dist/assets/ember-data.js.map">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.39517015">
+          <caret line="0" column="1889" selection-start-line="0" selection-start-column="1889" selection-end-line="0" selection-end-column="1889" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="sourcemapFileViewerProvider">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dist/assets/ember-menu.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.95049506">
+          <caret line="136" column="23" selection-start-line="136" selection-start-column="23" selection-end-line="136" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dist/assets/ember-menu.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dist/assets/ember-menu.map">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.39517015">
+          <caret line="0" column="2031" selection-start-line="0" selection-start-column="2031" selection-end-line="0" selection-end-column="2031" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="sourcemapFileViewerProvider">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dist/assets/vendor.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="347.35843">
+          <caret line="14561" column="0" selection-start-line="14561" selection-start-column="0" selection-end-line="14561" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dist/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-5.25">
+          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/vendor.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.47524753">
+          <caret line="20" column="3" selection-start-line="20" selection-start-column="3" selection-end-line="20" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
