@@ -1,6 +1,6 @@
 {
   "name": "ember-menu",
-  "version": "0.0.8",
+  "version": "1.0.0",
   "description": "Ember menu is menu on bootstap GUI",
   "private": false,
   "directories": {
@@ -20,7 +20,7 @@
   ],
   "repository": "https://github.com/DenQ/ember-menu.git",
   "engines": {
-    "node": ">= 0.10.0"
+    "node": ">= 0.1.0"
   },
   "author": "",
   "license": "MIT",
@@ -46,5 +46,8 @@
     "ember-local-storage": "0.0.6",
     "ember-localstorage-adapter": "^0.5.4"
   },
-  "dependencies": {}
+  "dependencies": {},
+  "ember-addon": {
+    "demoURL": "http://denq.github.io/ember-menu/dist/"
+  }
 }
