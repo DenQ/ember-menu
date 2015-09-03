@@ -1,6 +1,6 @@
 {
   "name": "ember-menu",
-  "version": "1.0.0",
+  "version": "0.1.1",
   "description": "Ember menu is menu on bootstap GUI",
   "private": false,
   "directories": {
@@ -20,7 +20,7 @@
   ],
   "repository": "https://github.com/DenQ/ember-menu.git",
   "engines": {
-    "node": ">= 0.1.0"
+    "node": ">= 0.10.0"
   },
   "author": "",
   "license": "MIT",
