@@ -2,27 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ef6eeaad-f139-425d-b78e-55963efb39fa" name="Default" comment="">
-      <change type="DELETED" beforePath="D:\Projects\ember\ember-q-menu\dist\assets\ember-data.js.map" afterPath="" />
-      <change type="DELETED" beforePath="D:\Projects\ember\ember-q-menu\dist\assets\ember-menu.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\Projects\ember\ember-q-menu\dist\assets\ember-menu.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\Projects\ember\ember-q-menu\dist\assets\ember-menu.map" afterPath="" />
-      <change type="DELETED" beforePath="D:\Projects\ember\ember-q-menu\dist\assets\failed.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\Projects\ember\ember-q-menu\dist\assets\passed.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\Projects\ember\ember-q-menu\dist\assets\test-loader.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\Projects\ember\ember-q-menu\dist\assets\test-support.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\Projects\ember\ember-q-menu\dist\assets\test-support.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\Projects\ember\ember-q-menu\dist\assets\test-support.map" afterPath="" />
-      <change type="DELETED" beforePath="D:\Projects\ember\ember-q-menu\dist\assets\vendor.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\Projects\ember\ember-q-menu\dist\assets\vendor.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\Projects\ember\ember-q-menu\dist\assets\vendor.map" afterPath="" />
-      <change type="DELETED" beforePath="D:\Projects\ember\ember-q-menu\dist\crossdomain.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\Projects\ember\ember-q-menu\dist\ember-menu\crossdomain.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\Projects\ember\ember-q-menu\dist\ember-menu\robots.txt" afterPath="" />
-      <change type="DELETED" beforePath="D:\Projects\ember\ember-q-menu\dist\index.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\Projects\ember\ember-q-menu\dist\robots.txt" afterPath="" />
-      <change type="DELETED" beforePath="D:\Projects\ember\ember-q-menu\dist\testem.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\Projects\ember\ember-q-menu\dist\tests\index.html" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="DELETED" beforePath="D:\Projects\ember\ember-q-menu\dist\assets\ember-menu-24fa2c2f9d590c733be10783d2089400.js" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/environment.js" afterPath="$PROJECT_DIR$/config/environment.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/index.html" afterPath="$PROJECT_DIR$/dist/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="ember-q-menu.iws" />
@@ -59,7 +41,7 @@
         <entry file="file://$PROJECT_DIR$/config/environment.js">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="41" column="33" selection-start-line="41" selection-start-column="23" selection-end-line="41" selection-end-column="33" />
+              <caret line="42" column="27" selection-start-line="42" selection-start-column="27" selection-end-line="42" selection-end-column="27" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -67,7 +49,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ember-menu.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ember-menu.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assets/ember-menu.js">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
@@ -87,11 +69,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/dist/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-11.612904">
-              <caret line="15" column="4" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="4" />
+            <state vertical-scroll-proportion="0.17160368">
+              <caret line="7" column="31" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="31" />
               <folding />
             </state>
           </provider>
@@ -138,6 +120,7 @@
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/dist/index.html" />
+        <option value="$PROJECT_DIR$/config/environment.js" />
       </list>
     </option>
   </component>
@@ -465,24 +448,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/environment.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="41" column="33" selection-start-line="41" selection-start-column="23" selection-end-line="41" selection-end-column="33" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dist/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-11.612904">
-          <caret line="15" column="4" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-6.967742">
@@ -495,6 +460,24 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/environment.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="42" column="27" selection-start-line="42" selection-start-column="27" selection-end-line="42" selection-end-column="27" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dist/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.17160368">
+          <caret line="7" column="31" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="31" />
           <folding />
         </state>
       </provider>
