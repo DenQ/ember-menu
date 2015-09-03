@@ -3,15 +3,6 @@
 
 /* jshint ignore:end */
 
-define('ember-menu/acceptance-tests/main', ['exports', 'ember-cli-sri/acceptance-tests/main'], function (exports, main) {
-
-	'use strict';
-
-
-
-	exports['default'] = main['default'];
-
-});
 define('ember-menu/adapters/application', ['exports', 'ember-data'], function (exports, DS) {
 
 	'use strict';
@@ -132,7 +123,8 @@ define('ember-menu/initializers/export-application-global', ['exports', 'ember',
 
   exports.initialize = initialize;
 
-  function initialize(container, application) {
+  function initialize() {
+    var application = arguments[1] || arguments[0];
     if (config['default'].exportApplicationGlobal !== false) {
       var value = config['default'].exportApplicationGlobal;
       var globalName;
@@ -974,7 +966,7 @@ catch(err) {
 if (runningTests) {
   require("ember-menu/tests/test-helper");
 } else {
-  require("ember-menu/app")["default"].create({"name":"ember-menu","version":"0.0.8+b6630b55"});
+  require("ember-menu/app")["default"].create({"name":"ember-menu","version":"0.0.8+9e24d84e"});
 }
 
 /* jshint ignore:end */
